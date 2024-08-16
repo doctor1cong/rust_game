@@ -1,0 +1,17 @@
+[package]
+name = "flappy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bracket-lib = "~0.8.1"
+
+# Cargo.toml
+#[build-dependencies]
+#pkg-config = "0.3"
+ 
+#[build-script]
+# 当FONTCONFIG_NO_PKG_CONFIG环境变量的值发生变化时，Cargo会重新运行构建脚本
+#rerun-if-env-changed = "FONTCONFIG_NO_PKG_CONFIG"
+ 
+# 构建脚本的内容
